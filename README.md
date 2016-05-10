@@ -14,6 +14,20 @@ After cloning the repo run:
 ```
 npm install
 ```
+###Installing on Chrome
+After finishing the local setup you can install on Chrome by navigating to
+
+```
+chrome://extensions
+```
+
+Next select 'Load unpacked extension...'. When prompted, paste the path to the app directory:
+
+```
+/your/path/to/URL-Debug/app
+```
+The extenion should be installed and available after choosing 'select'.
+
 ###Testing
 
 Tests are run using the Intern test framework.  Before running the tests make sure to set browser stack environment variables:
