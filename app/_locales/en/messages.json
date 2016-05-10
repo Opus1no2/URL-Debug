@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Url Debug",
+    "description": "Url Debug"
+  },
+  "appDescription": {
+    "message": "An extension for debugging URL's",
+    "description": "An extension for debugging URL's"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "URL Debug",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "A simple tool for debuggin urls",
+  "icons": {
+  },
+  "default_locale": "en",
+  "background": {
+    "scripts": [
+      "scripts/background.js"
+    ]
+  },
+  "browser_action": {
+    "default_icon": {
+    },
+    "default_title": "url debug"
+  },
+  "permissions": [
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ]
+}
